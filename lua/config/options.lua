@@ -4,6 +4,8 @@
 vim.opt.guifont = "CaskaydiaCove Nerd Font Mono:h11"
 vim.g.autoformat = false
 
+vim.diagnostic.enable(false)
+
 -- Set PowerShell on Windows
 if vim.fn.has("win32") == 1 then
   vim.opt.shell = "pwsh"
