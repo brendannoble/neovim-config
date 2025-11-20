@@ -4,9 +4,9 @@ return {
   config = function()
     require("onedarkpro").setup({
       colors = {
-        onedark = { bg = "#0D1117" }, -- Set background to #0D1117
+        onedark_vivid = { bg = "#0D1117" }, -- Set background to #0D1117
       },
     })
-    vim.cmd("colorscheme onedark") -- Activate the onedark theme
+    vim.cmd("colorscheme onedark_vivid") -- Activate the onedark theme
   end,
 }
