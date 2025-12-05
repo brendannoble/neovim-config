@@ -12,11 +12,6 @@ return {
           height = 0.9,
         },
       },
-      tools = {
-        cursor = {
-          cmd = { "wsl", "-e", "bash", "-lc", "cursor-agent" },
-        },
-      },
     },
   },
 }
