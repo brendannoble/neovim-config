@@ -10,6 +10,6 @@ map("n", "<leader>bH", "<cmd>BufferLineMovePrev<CR>", { desc = "Move buffer left
 map("n", "<leader>bL", "<cmd>BufferLineMoveNext<CR>", { desc = "Move buffer right" })
 
 -- Open AI CLI Window
-map({ "n", "i" }, "<leader>t", function()
+map({ "n", "i", "t", "x" }, "<leader>t", function()
   require("sidekick.cli").toggle()
 end, { desc = "Toggle Sidekick CLI" })
