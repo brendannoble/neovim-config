@@ -3,6 +3,7 @@
 -- Add any additional options here
 vim.opt.guifont = "CaskaydiaCove Nerd Font Mono:h12:b"
 vim.g.autoformat = false
+vim.g.lazyvim_php_lsp = "intelephense"
 
 vim.diagnostic.enable(false)
 vim.opt.relativenumber = false;
