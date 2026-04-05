@@ -10,6 +10,10 @@ return {
         margin = { horizontal = 0, vertical = 0 },
       },
       render = function(props)
+        if vim.bo[props.buf].filetype == "neo-tree" then
+          return nil
+        end
+
         local filename = vim.fn.fnamemodify(vim.api.nvim_buf_get_name(props.buf), ':t')
         if filename == '' then
           filename = '[No Name]'
