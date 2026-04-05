@@ -12,6 +12,15 @@ return {
           height = 0.9,
         },
       },
+      tools = {
+        claude = {
+          cmd = { "claude", "--chrome" },
+          keys = { buffers = false },
+        },
+        chief = {
+          cmd = { "chief" }
+        },
+      },
     },
   },
 }
