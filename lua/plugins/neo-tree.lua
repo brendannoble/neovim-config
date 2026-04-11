@@ -14,7 +14,7 @@ return {
       },
       window = {
         position = "left",
-        width = 48,
+        width = 36,
       },
       filesystem = {
         follow_current_file = {
