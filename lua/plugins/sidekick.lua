@@ -72,7 +72,8 @@ return {
           keys = { buffers = false },
         },
         chief = {
-          cmd = { "chief" }
+          cmd = { "chief" },
+        },
         aoe = {
           cmd = { "aoe" },
         },
